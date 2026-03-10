@@ -1,133 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Police Verification Report</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.8;
-            font-size: 14px;
-        }
-        .container {
-            background: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+<meta charset="UTF-8">
+<title>Police Verification Report</title>
 
-        }
-        
-        
-        
-        .header {
-            background-color: #52a1f5; /* Blue color */
-            color: white;
-            text-align: center;
-            padding: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            border-radius: 0px;
-            margin-bottom: 2px;
-        }
-        .sub-header {
-            background-color: #52a1f5; /* Navy blue color */
-            color: white;
-            text-align: center;
-            padding: 5px;
-            font-weight: bold;
-            border-radius: 0px;
-            margin-top: 2px;
-        }
-        .content {
-            border: 2px solid hsl(244, 100%, 50%);
-            border-radius: 0px;
-            padding: 20px;
-            margin-top: 20px;
-            position: relative;
-        }
-        .content img {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            border: 2px solid #f7f7f8f7;
-            border-radius: 0px;
-        }
-        .details {
-            padding-right: 20px; /* To adjust space for image */
-        }
-        .details p {
-            margin: 5px 0;
-        }
-        .details p strong {
-            display: inline-block;
-            width: 150px;
-        
-        }
-        .info {
-            padding: 10px;
-            font-size: 14px;
-        }
-        .table-container {
-            overflow-x: auto;
-        }
-        .info {
-            padding: 10px;
-            font-size: 14px;
-        }
-        .content-table {
-            width: fit-content;
-            margin: auto;
-            border: 3px hsl(244, 100%, 50%) ;
-            padding: 2px;
-            border: 2px;
-            background-color: hsl(244, 100%, 50%);
-        
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #fff;
-            border-bottom: #fff;
-        
-        }
- 
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+}
 
-        th, td {
-            border: 1px solid #f5f2ee;
-            padding: 8px;
-            text-align: center;
-            
-        }
-        th {
-            background: #3cc1ff;
-            color: white;
-        }
-        tr{ border-color: rgb(243, 238, 238);
-            border-bottom: rgb(250, 245, 245);
-        }
-    </style>
+.header{
+    background:#4a79c9;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+}
+
+.subheader{
+    background:#4a79c9;
+    color:white;
+    text-align:center;
+    padding:8px;
+    margin-bottom:20px;
+}
+
+.top-box{
+    border:3px solid #2f5cc1;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.photo{
+    width:120px;
+    height:140px;
+    border:1px solid #ccc;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th, td{
+    border:1px solid #999;
+    padding:10px;
+}
+
+th{
+    background:#4a79c9;
+    color:white;
+}
+</style>
+
 </head>
+
 <body>
-    <div class="header">POLICE VERIFICATION SERVICES</div>
 
-    <div class="sub-header">PERSONAL DETAILS</div>
+<div class="header">POLICE VERIFICATION SERVICES</div>
+<div class="subheader">PERSON DETAILS</div>
 
-    <div class="content">
-        <img src="images/123.jpg" alt="Person Image" width="80" height="80">
-        <div class="details">
-            <p>PVR No :   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       S5892600524617</p>
-            <p>Date of Issue: &nbsp;   04-02-2026</p>
-        </div>
-    </div>
+<div class="top-box">
 
-    
-    <p>This is to certify that Mr. AJITH M S/O MURUGAN is currently residing at: 2/229A, PULIYADI, CBHPO, VADASERY, NAGERCOIL, KANYAKUMARI District, 629001. He is not found to be involved in any criminal case as per the records available with the Police Department.</p>
+<div>
+<p><strong>PVR No:</strong> S5892600615982</p>
+<p><strong>Date of Issue:</strong> 09-03-2026</p>
 </div>
+
+<img src="image/143.jpg" class="photo">
+
+</div>
+
+<p>
+This is to certify that <b>JOSE BABIN J</b> S/o <b>JOSELINRAJAN</b> is currently residing at
+<b>300, CSI CHURCH STREET, KAMARAJAPURAM, NAGERCOIL, KANYAKUMARI District, 629001</b>.
+He/She is found to be involved in the following criminal case(s) as per the available Police records.
+</p>
+
+<table>
+
+<tr>
+<th>S.NO</th>
+<th>District</th>
+<th>Police Station</th>
+<th>Crime No.</th>
+<th>Section of Law</th>
+<th>Stage of the Case</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>KANYAKUMARI</td>
+<td>VADASERI</td>
+<td>61/2023</td>
+<td>326, 148, 294(b), 147, 427, 506(2), 324 - IPC</td>
+<td>Not Taken on File</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>KANYAKUMARI</td>
+<td>VADASERI</td>
+<td>481/2021</td>
+<td>147, 148, 294(b), 323, 324, 332, 353, 506(2) - IPC</td>
+<td>Pending Trial</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>KANYAKUMARI</td>
+<td>KANYAKUMARI</td>
+<td>189/2019</td>
+<td>147, 148, 448, 294(b), 324, 427, 506(2) - IPC</td>
+<td>Disposed</td>
+</tr>
+
+</table>
+
 </body>
 </html>
 
             
+
 
