@@ -1,62 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Police Verification Report</title>
+<title>Police Verification Services</title>
 
 <style>
+
 body{
-    font-family: Arial, sans-serif;
-    margin:40px;
+font-family: Arial, Helvetica, sans-serif;
+background:#ffffff;
+padding:40px;
 }
 
+/* Header */
 .header{
-    background:#4a79c9;
-    color:white;
-    text-align:center;
-    padding:10px;
-    font-weight:bold;
+background:#5c8fe8;
+color:white;
+text-align:center;
+font-weight:bold;
+padding:12px;
+font-size:18px;
+border:2px solid #2f5fd0;
 }
 
 .subheader{
-    background:#4a79c9;
-    color:white;
-    text-align:center;
-    padding:8px;
-    margin-bottom:20px;
+background:#5c8fe8;
+color:white;
+text-align:center;
+font-weight:bold;
+padding:10px;
+font-size:16px;
+border-left:2px solid #2f5fd0;
+border-right:2px solid #2f5fd0;
+border-bottom:2px solid #2f5fd0;
+margin-bottom:25px;
 }
 
-.top-box{
-    border:3px solid #2f5cc1;
-    padding:20px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+/* Top box */
+.topbox{
+border:3px solid #2f5fd0;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+.details{
+font-size:18px;
+line-height:35px;
 }
 
 .photo{
-    width:120px;
-    height:140px;
-    border:1px solid #ccc;
+width:120px;
+height:140px;
+border:1px solid #999;
+object-fit:cover;
 }
 
+/* Table */
+
 table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:20px;
-}
-table-box{
-    border:3px solid #2f5bd3;
-    margin-top:20px;
-th, td{
-    border:1px solid #999;
-    padding:10px;
+width:100%;
+border-collapse:collapse;
+border:3px solid #2f5fd0;
 }
 
 th{
-    background:#4a79c9;
-    color:white;
+background:#5c8fe8;
+color:white;
+border:2px solid #2f5fd0;
+padding:10px;
+font-size:14px;
 }
+
+td{
+border:1px solid #555;
+padding:10px;
+font-size:14px;
+text-align:center;
+}
+
+.text{
+margin-bottom:20px;
+font-size:16px;
+line-height:1.7;
+}
+
 </style>
 
 </head>
@@ -66,23 +95,23 @@ th{
 <div class="header">POLICE VERIFICATION SERVICES</div>
 <div class="subheader">PERSON DETAILS</div>
 
-<div class="top-box">
+<div class="topbox">
 
-<div>
-<p><strong>PVR No:</strong> S5892600615982</p>
-<p><strong>Date of Issue:</strong> 09-03-2026</p>
+<div class="details">
+<b>PVR No:</b> S5892600615982<br>
+<b>Date of Issue:</b> 09-03-2026
 </div>
 
-<img src="images/143.jpg" alt="person image"  width="80" height ="80">
+<img src="images/143.jpg" alt="person image " width="80" height="80">
 
 </div>
 
-<p>
+<div class="text">
 This is to certify that <b>JOSE BABIN J</b> S/o <b>JOSELINRAJAN</b> is currently residing at
-<b>300, CSI CHURCH STREET, KAMARAJAPURAM, NAGERCOIL, KANYAKUMARI District, 629001</b>.
-He/She is found to be involved in the following criminal case(s) as per the available Police records.
-</p>
-<div class="table-box">
+<b>300, CSI CHURCH STREET, KAMARAJAPURAM, NAGERCOIL, KANYAKUMARI District, 629001.</b>
+He is found to be involved in the following criminal case(s) as per the available Police records.
+</div>
+
 <table>
 
 <tr>
@@ -125,13 +154,3 @@ He/She is found to be involved in the following criminal case(s) as per the avai
 
 </body>
 </html>
-
-            
-
-
-
-
-
-
-
-
